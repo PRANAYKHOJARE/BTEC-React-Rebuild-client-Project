@@ -1,21 +1,17 @@
-// src/lib/firebase.ts
-
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-// ❌ Storage removed because not available on free plan
- import { getStorage } from "firebase/storage";
+import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC8q7_FmMdmSScOwX_pqjJdPqwfnY4VTZk",
-  authDomain: "btec-service-website.firebaseapp.com",
-  projectId: "btec-service-website",
-  storageBucket: "btec-service-website.firebasestorage.app",
-  messagingSenderId: "987469269378",
-  appId: "1:987469269378:web:59cbac66c30ea91a31e79b",
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
-// ❌ Storage disabled
- export const storage = getStorage(app);
+export const storage = getStorage(app);
