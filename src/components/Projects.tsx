@@ -4,7 +4,7 @@ import { X } from "lucide-react";
 import railwayImg from "@/assets/Pune Railway Station .jpg";
 import joyvillaImg from "@/assets/joyvilla.jpg";
 import wellingtonImg from "@/assets/wellington-college.jpg";
-import cabImg from "@/assets/cab service .jpg";
+// import cabImg from "@/assets/cab service .jpg";
 
 // Firebase
 import { db } from "@/lib/firebase";
@@ -44,13 +44,13 @@ const initialProjects: Project[] = [
     description: "Campus-wide fire safety infrastructure deployment",
     image: wellingtonImg,
   },
-  {
-    id: 5,
-    title: "Cab Service Control Panel Setup",
-    description:
-      "Professional installation and wiring of surveillance systems for a cab service facility.",
-    image: cabImg,
-  },
+  // {
+  //   id: 5,
+  //   title: "Cab Service Control Panel Setup",
+  //   description:
+  //     "Professional installation and wiring of surveillance systems for a cab service facility.",
+  //   image: cabImg,
+  // },
 ];
 
 const Projects = () => {

@@ -3,32 +3,44 @@ import cctvImg from "@/assets/service-cctv.jpg";
 import fireImg from "@/assets/service-fire.jpg";
 import electricalImg from "@/assets/service-electrical.jpg";
 import maintenanceImg from "@/assets/service-maintenance.jpg";
+import cabImg from "@/assets/cab service .jpg";
 
 const services = [
   {
     title: "Labor Supply",
-    description: "Skilled and unskilled manpower for industries and societies. Our trained professionals ensure quality work delivery.",
+    description:
+      "Skilled and unskilled manpower for industries and societies. Our trained professionals ensure quality work delivery.",
     image: manpowerImg,
   },
   {
     title: "CCTV Installation",
-    description: "Installation of dome, bullet, IP, and wireless security cameras. Complete surveillance solutions for your safety.",
+    description:
+      "Installation of dome, bullet, IP, and wireless security cameras. Complete surveillance solutions for your safety.",
     image: cctvImg,
   },
   {
     title: "Fire Alarm Systems",
-    description: "End-to-end fire safety and detection system installation. Compliance with all safety standards and regulations.",
+    description:
+      "End-to-end fire safety and detection system installation. Compliance with all safety standards and regulations.",
     image: fireImg,
   },
   {
     title: "Electrical Panel Mfg.",
-    description: "Custom-made control and distribution panels. DOL, Soft Starters, APFC, and process control solutions.",
+    description:
+      "Custom-made control and distribution panels. DOL, Soft Starters, APFC, and process control solutions.",
     image: electricalImg,
   },
   {
     title: "Maintenance & Wiring",
-    description: "Electrical maintenance and structured wiring for buildings. On-site support and preventive maintenance services.",
+    description:
+      "Electrical maintenance and structured wiring for buildings. On-site support and preventive maintenance services.",
     image: maintenanceImg,
+  },
+  {
+    title: "Driver & Cab Service",
+    description:
+      "We provide trained and professional drivers for your vehicles. Safe, reliable, and on-time driving service for industrial staff, corporate transport, and daily operations.",
+    image: cabImg, // replace with a driver-themed image when available
   },
 ];
 
@@ -81,13 +93,19 @@ const Services = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div className="bg-primary/5 rounded-xl p-6 border-2 border-primary/20 hover:border-primary/40 transition-smooth">
-              <h3 className="font-bold text-lg text-foreground mb-2">All Types of Electrical Distribution Panels</h3>
+              <h3 className="font-bold text-lg text-foreground mb-2">
+                All Types of Electrical Distribution Panels
+              </h3>
             </div>
             <div className="bg-primary/5 rounded-xl p-6 border-2 border-primary/20 hover:border-primary/40 transition-smooth">
-              <h3 className="font-bold text-lg text-foreground mb-2">Motor Starters – DOL, Soft Starters, Auto Changeover</h3>
+              <h3 className="font-bold text-lg text-foreground mb-2">
+                Motor Starters – DOL, Soft Starters, Auto Changeover
+              </h3>
             </div>
             <div className="bg-primary/5 rounded-xl p-6 border-2 border-primary/20 hover:border-primary/40 transition-smooth">
-              <h3 className="font-bold text-lg text-foreground mb-2">Control Panels – APFC, Process Control, Auto Changeover</h3>
+              <h3 className="font-bold text-lg text-foreground mb-2">
+                Control Panels – APFC, Process Control, Auto Changeover
+              </h3>
             </div>
           </div>
         </div>

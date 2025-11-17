@@ -32,9 +32,11 @@ const About = () => {
             About BTEC Service
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            BTEC Service is a leading provider of comprehensive manpower solutions and electrical services. 
-            With years of industry experience, we deliver excellence in CCTV installations, fire alarm systems, 
-            electrical panel manufacturing, and complete maintenance services for residential and commercial properties.
+            BTEC Service is a leading provider of comprehensive manpower
+            solutions and electrical services. With years of industry
+            experience, we deliver excellence in CCTV installations, fire alarm
+            systems, electrical panel manufacturing, and complete maintenance
+            services for residential and commercial properties.
           </p>
         </div>
 
