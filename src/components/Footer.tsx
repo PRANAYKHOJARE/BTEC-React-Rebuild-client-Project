@@ -26,7 +26,8 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">BTEC SERVICE</h3>
               <p className="text-white/70 leading-relaxed">
-                Complete Manpower & Electrical Service Solutions. Your trusted partner for quality services.
+                Complete Manpower & Electrical Service Solutions. Your trusted
+                partner for quality services.
               </p>
             </div>
 
@@ -34,22 +35,34 @@ const Footer = () => {
               <h4 className="text-lg font-bold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#services" className="text-white/70 hover:text-primary transition-colors">
+                  <a
+                    href="#services"
+                    className="text-white/70 hover:text-primary transition-colors"
+                  >
                     Our Services
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" className="text-white/70 hover:text-primary transition-colors">
+                  <a
+                    href="#projects"
+                    className="text-white/70 hover:text-primary transition-colors"
+                  >
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#testimonials" className="text-white/70 hover:text-primary transition-colors">
+                  <a
+                    href="#testimonials"
+                    className="text-white/70 hover:text-primary transition-colors"
+                  >
                     Testimonials
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="text-white/70 hover:text-primary transition-colors">
+                  <a
+                    href="#contact"
+                    className="text-white/70 hover:text-primary transition-colors"
+                  >
                     Contact Us
                   </a>
                 </li>
@@ -68,8 +81,14 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="border-t border-white/20 pt-8 text-center text-white/60">
-            <p>© {new Date().getFullYear()} BTEC Service All rights reserved.</p>
+          <div className="border-t border-white/20 pt-8 text-center text-white/60 space-y-1">
+            <p>
+              © {new Date().getFullYear()} BTEC Service. All rights reserved.
+            </p>
+            <p className="text-sm text-white/50">
+              Website designed & developed by{" "}
+              <span className="font-semibold">Pranay Sanjay Khojare</span>
+            </p>
           </div>
         </div>
       </footer>
