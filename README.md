@@ -2,7 +2,7 @@
 
 A fully modern and business-focused website developed using **React.js + Tailwind CSS**, built for the corporate company **BTEC Service** to showcase services and generate high-quality customer leads.
 
-🔗 **Live Preview:** https://btec-lovable.vercel.app  
+🔗 **Live Preview:** [https:btecservice.co.in](https://btecservice.co.in/)  
 🌐 **Official Domain:** `btecservice.co.in`  
 
 ---
